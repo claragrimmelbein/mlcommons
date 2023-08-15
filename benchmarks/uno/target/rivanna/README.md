@@ -101,7 +101,10 @@
 
 
 August 15, 2023     
-References: https://github.com/ECP-CANDLE/Benchmarks
+References: 
+   * https://github.com/ECP-CANDLE/Benchmarks
+   * https://github.com/grpc/grpc/issues/24677
+      
 
 
 

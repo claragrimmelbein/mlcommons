@@ -22,6 +22,17 @@
         conda install -c anaconda theano
         conda install -c conda-forge keras=2
       ```
+      * Another way of installing Tensorflow:
+        ```
+        pip install tensorflow
+        ```
+
+         If troubles with grpcio wheel, do the following
+        ```
+        python -m pip install --upgrade pip
+        pip install wheel && GRPC_BUILD_WITH_BORING_SSL_ASM="" GRPC_PYTHON_BUILD_SYSTEM_RE2=true GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=true GRPC_PYTHON_BUILD_SYSTEM_ZLIB=true pip install grpcio
+        ```
+        
     * Download the source files for the benchmarks
         ```
         git clone https://github.com/ECP-Candle/benchmarks

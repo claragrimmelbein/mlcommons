@@ -27,7 +27,9 @@
         git clone https://github.com/ECP-Candle/benchmarks
         ```
 4. Download Uno Data (13.21 GB)
-    * wget http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/uno/top_21_auc_1fold.uno.h5 
+   ```
+   wget http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/uno/top_21_auc_1fold.uno.h5
+   ```
       
 6. Connect to UVA Eduroam Network or UVA Anywhere VPN
       - steps to download this VPN can be found:

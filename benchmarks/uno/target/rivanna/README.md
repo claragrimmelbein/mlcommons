@@ -32,7 +32,6 @@
             * p1b3_baseline_keras2.py
           
 4. Download Uno Data (13.21 GB)
-   * you may be thinking: "What exactly is this mysterious data I am downloading" and the answer is not CIA intelligence data but 
    ```
    wget http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/uno/top_21_auc_1fold.uno.h5
    ```
@@ -55,7 +54,14 @@
 
 9. Run the Pilot1 benchmarks (have not yet done Pilot2 and so on)
 
-   ** More information about Pilot1 Benchmarks can be found on my GitHub page **
+   ** More information about Pilot1 Benchmarks can be found on my GitHub page**
+
+   * May be wise to just start with P1B1, this is the baseline implementation
+     ```
+     cd Pilot1/P1B1
+     python p1b1_baseline_keras2.py
+     ```
+
    ```
     pushd benchmarks/Pilot1/P1B1/
     python p1b1_baseline_keras2.py
@@ -69,7 +75,7 @@
     python p1b3_baseline_keras2.py
     popd
    ```
-10. Should produce success, if not email me at esf3xw@virginia.edu with questions
+11. Should produce success, if not email me at esf3xw@virginia.edu with questions
 
 
 

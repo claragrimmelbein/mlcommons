@@ -27,6 +27,7 @@
         git clone https://github.com/ECP-Candle/benchmarks
         ```
 4. Download Uno Data (13.21 GB)
+   * you may be thinking: "What exactly is this mysterious data I am downloading" and the answer is not CIA intelligence data but 
    ```
    wget http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/uno/top_21_auc_1fold.uno.h5
    ```

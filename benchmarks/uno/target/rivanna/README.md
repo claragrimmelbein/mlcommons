@@ -26,6 +26,11 @@
         ```
         git clone https://github.com/ECP-Candle/benchmarks
         ```
+        * Double check for:
+            * p1b1_baseline_keras2.py
+            * p1b2_baseline_keras2.py
+            * p1b3_baseline_keras2.py
+          
 4. Download Uno Data (13.21 GB)
    * you may be thinking: "What exactly is this mysterious data I am downloading" and the answer is not CIA intelligence data but 
    ```

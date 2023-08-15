@@ -54,7 +54,7 @@
 
 9. Run the Pilot1 benchmarks (have not yet done Pilot2 and so on)
 
-   ** More information about Pilot1 Benchmarks can be found on my GitHub page**
+   ** More information about Pilot1 Benchmarks can be found on my GitHub page **
 
    * May be wise to just start with P1B1, this is the baseline implementation
      ```

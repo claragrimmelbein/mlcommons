@@ -68,7 +68,7 @@
 
 
 August 15, 2023     
-References: https://github.com/ECP-CANDLE/Benchmarks/blob/develop/README.setup.mac
+References: https://github.com/ECP-CANDLE/Benchmarks
 
 
 

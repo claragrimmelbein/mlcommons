@@ -91,7 +91,7 @@
     python p1b3_baseline_keras2.py
     popd
    ```
-11. Should produce success, if not email me at esf3xw@virginia.edu with questions
+11. Should produce success, if not, email me at esf3xw@virginia.edu with questions
 
 
 

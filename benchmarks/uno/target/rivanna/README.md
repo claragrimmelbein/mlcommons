@@ -15,7 +15,7 @@
             ````
     * Install additional modules not shipped with Anaconda:
   
-      (maybe grab a snack while this is occurring, takes more than a couple of minutes)
+      (maybe grab a snack while this is occurring, takes more than a couple of minutes, on second thought you could eat a multiple course meal in this time period)
       ```
         conda install -c conda-forge tensorflow
         conda install -c anaconda hdf5=1.8.17
@@ -26,25 +26,28 @@
         ```
         git clone https://github.com/ECP-Candle/benchmarks
         ```
-3. Connect to UVA Eduroam Network or UVA Anywhere VPN
+4. Download Uno Data (13.21 GB)
+    * wget http://ftp.mcs.anl.gov/pub/candle/public/benchmarks/Pilot1/uno/top_21_auc_1fold.uno.h5 
+      
+6. Connect to UVA Eduroam Network or UVA Anywhere VPN
       - steps to download this VPN can be found:
         - Linux: https://www.rc.virginia.edu/userinfo/linux/uva-anywhere-vpn-linux/
         - Mac and Windows: https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0
           
   
-4. Log into Rivanna:
+7. Log into Rivanna:
    ```
    ssh $USER@rivanna.hpc.virginia.edu
    ```
   
-6. Log into Biihead node (if using biihead2, replace 1 below with 2)
+8. Log into Biihead node (if using biihead2, replace 1 below with 2)
    ```
    ssh $USER@biihead1.bii.virginia.edu
    ```
 
-5. Run the Pilot1 benchmarks (have not yet done Pilot2 and so on)
+9. Run the Pilot1 benchmarks (have not yet done Pilot2 and so on)
 
-   ** More information about Pilot1 Benchmarks can be found in my github page **
+   ** More information about Pilot1 Benchmarks can be found on my GitHub page **
    ```
     pushd benchmarks/Pilot1/P1B1/
     python p1b1_baseline_keras2.py
@@ -58,7 +61,7 @@
     python p1b3_baseline_keras2.py
     popd
    ```
-7. Should produce success, if not email me at esf3xw@virginia.edu with questions
+10. Should produce success, if not email me at esf3xw@virginia.edu with questions
 
 
 

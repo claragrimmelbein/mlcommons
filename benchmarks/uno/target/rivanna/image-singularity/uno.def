@@ -8,6 +8,10 @@ From:  nvcr.io/nvidia/tensorflow:22.10-tf2-py3
     pip install -r requirements.txt
 
 
-
-
-
+%post
+    apt update
+    # apt install -y python3-venv git
+    pip install pip -U ; python --version
+    # install from requirements file in rivanna folder
+    pip install protobuf==3.20.0 numpy tensorflow cloudmesh-gpu cloudmesh-common cloudmesh-ee 
+    pip install git+https://github.com/mlperf/logging.git@1.0.0

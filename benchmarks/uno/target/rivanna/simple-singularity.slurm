@@ -31,6 +31,7 @@ cd $PROJECT_DIR
 # cms gpu watch --gpu=0 --delay=0.5 --dense > outputs/gpu0.log &
 
 # python uno_mllog.py --config config_simple.yaml
-singularity exec uno.sif python uno_mllog_v2.py
-singularity exec --nv ./uno.sif bash -c "cd ${CODE_DIR} ; python uno_mllog_v2.py --config=config-new.yaml"
+singularity exec --nv ./uno.sif bash -c "cd ${CODE_DIR} ; python uno_mllog.py --config config_simple.yaml" 
+# singularity exec --nv ./uno.sif bash -c "cd ${CODE_DIR} ; python uno_mllog_v2.py" 
+# --config=config-new.yaml"
 seff $SLURM_JOB_ID

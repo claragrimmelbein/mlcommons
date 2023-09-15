@@ -13,6 +13,9 @@
    cd mlcommons/benchmarks/uno/target/rivanna
    make image
    * now have uno.sif
+  
+5. run simply slurm (make sure file in right location, directory names correct, variables, etc)
+   sbatch simple-singularity.slurm
      
    
    

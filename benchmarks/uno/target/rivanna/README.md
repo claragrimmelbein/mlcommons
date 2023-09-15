@@ -4,18 +4,24 @@
    cms rivanna vpn connect
    
 3. Check out code
+   ```
    cd /scratch/$USER
    git clone git@github.com:claragrimmelbein/mlcommons.git
    cd mlcommons/benchmarks/uno/target/rivanna
+   ```
 
 4. Log into biihead2 (explain set up for biihead informal)
+   ```
    ssh b2
    cd mlcommons/benchmarks/uno/target/rivanna
    make image
+   ```
    * now have uno.sif
   
 5. run simply slurm ( make sure file in right location, directory names correct, variables, etc)
+   ```
    sbatch simple-singularity.slurm
+   ```
      
    
    

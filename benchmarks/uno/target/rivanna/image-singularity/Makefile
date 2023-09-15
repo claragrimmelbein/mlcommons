@@ -11,7 +11,14 @@ DATA_LOCALSCRATCH=/localscratch/${USER}/$(NAME)/
 BIND_LOCALSCRATCH=--bind ${DATA}:${DATA}
 
 image:
-	time ../bin/singularity-image.py ${NAME}
+	##time ../bin/singularity-image.py ${NAME}
+	##pip install cloudmesh-rivanna
+	##cms help
+	##cms rivanna help
+
+	time cms rivanna singularity build uno.def 
+
+	
 
 queue: watch
 

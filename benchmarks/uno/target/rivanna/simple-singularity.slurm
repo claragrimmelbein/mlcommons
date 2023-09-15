@@ -32,5 +32,5 @@ cd $PROJECT_DIR
 
 # python uno_mllog.py --config config_simple.yaml
 singularity exec uno.sif python uno_mllog_v2.py
-
+singularity exec --nv ./uno.sif bash -c "cd ${CODE_DIR} ; python uno_mllog_v2.py --config=config-new.yaml"
 seff $SLURM_JOB_ID
